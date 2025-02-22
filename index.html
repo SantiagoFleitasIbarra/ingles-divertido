@@ -1,0 +1,411 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inglés Divertido</title>
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Inglés Divertido Logo" style="height: 45px;">
+    </div>
+    <button class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#game-section">Aprendizaje</a></li>
+        <li class="dropdown">
+          <a href="#interactive-challenges">Desafíos Interactivos</a>
+          <div class="dropdown-content">
+            <a href="#beginner-section">Principiante</a>
+            <a href="#intermediate-section">Intermedio</a>
+            <a href="#advanced-section">Avanzado</a>
+          </div>
+        </li>
+        <li><a href="#examples-section">Ejemplos</a></li>
+        <li class="dropdown">
+          <a href="#study-materials">Material de Estudio</a>
+          <div class="dropdown-content">
+            <a href="#dictionaries">Diccionarios y Referencias</a>
+            <a href="#vocabulary">Vocabulario por Temas</a>
+            <a href="#additional">Recursos Adicionales</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Aprende Inglés con Contenido Atractivo</h1>
+      <p>Descubre un mundo de conocimiento a través de lecciones interactivas y juegos divertidos.</p>
+      <div class="hero-buttons">
+        <a href="#game-section"><button id="start-learning">Comenzar a Aprender</button></a>
+        <a href="#study-materials"><button id="download-pdf">Descargar Guías PDF</button></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- English Learning Game Section -->
+  <section class="movie-section" id="game-section">
+    <h2>Juego de Aprendizaje de Inglés</h2>
+    <div id="game-container">
+      <p id="word-to-translate"></p>
+      <input type="text" id="user-translation" placeholder="Escribe la traducción en inglés">
+      <button id="check-translation">Comprobar</button>
+      <p id="result"></p>
+    </div>
+
+    <!-- Interactive Challenges Section -->
+    <section id="interactive-challenges">
+      <h2>Desafíos Interactivos</h2>
+      
+      <!-- Principiante -->
+      <div class="difficulty-section" id="beginner-section">
+        <h3 class="difficulty-title">Principiante</h3>
+        <div class="challenges-group">
+          <div class="challenge" data-difficulty="beginner">
+            <h4>Desafío 1: Saludos Básicos</h4>
+            <button class="open-challenge" data-challenge="1">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="beginner">
+            <h4>Desafío 2: Números del 1-10</h4>
+            <button class="open-challenge" data-challenge="2">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="beginner">
+            <h4>Desafío 3: Colores</h4>
+            <button class="open-challenge" data-challenge="3">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="beginner">
+            <h4>Desafío 4: La Familia</h4>
+            <button class="open-challenge" data-challenge="4">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="beginner">
+            <h4>Desafío 5: Días de la Semana</h4>
+            <button class="open-challenge" data-challenge="5">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="beginner">
+            <h4>Desafío 6: Animales Comunes</h4>
+            <button class="open-challenge" data-challenge="6">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="beginner">
+            <h4>Desafío 7: Frases Cotidianas</h4>
+            <button class="open-challenge" data-challenge="7">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="beginner">
+            <h4>Desafío 8: Objetos del Hogar</h4>
+            <button class="open-challenge" data-challenge="8">Comenzar Desafío</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Intermedio -->
+      <div class="difficulty-section" id="intermediate-section">
+        <h3 class="difficulty-title">Intermedio</h3>
+        <div class="challenges-group">
+          <div class="challenge" data-difficulty="intermediate">
+            <h4>Desafío 9: Verbos Irregulares</h4>
+            <button class="open-challenge" data-challenge="9">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="intermediate">
+            <h4>Desafío 10: Preposiciones</h4>
+            <button class="open-challenge" data-challenge="10">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="intermediate">
+            <h4>Desafío 11: Presente Continuo</h4>
+            <button class="open-challenge" data-challenge="11">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="intermediate">
+            <h4>Desafío 12: Adjetivos Comparativos</h4>
+            <button class="open-challenge" data-challenge="12">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="intermediate">
+            <h4>Desafío 13: Adverbios de Frecuencia</h4>
+            <button class="open-challenge" data-challenge="13">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="intermediate">
+            <h4>Desafío 14: Expresiones Idiomáticas</h4>
+            <button class="open-challenge" data-challenge="14">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="intermediate">
+            <h4>Desafío 15: Pronombres Relativos</h4>
+            <button class="open-challenge" data-challenge="15">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="intermediate">
+            <h4>Desafío 16: Pasado Simple</h4>
+            <button class="open-challenge" data-challenge="16">Comenzar Desafío</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Avanzado -->
+      <div class="difficulty-section" id="advanced-section">
+        <h3 class="difficulty-title">Avanzado</h3>
+        <div class="challenges-group">
+          <div class="challenge" data-difficulty="advanced">
+            <h4>Desafío 17: Condicionales</h4>
+            <button class="open-challenge" data-challenge="17">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="advanced">
+            <h4>Desafío 18: Voz Pasiva</h4>
+            <button class="open-challenge" data-challenge="18">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="advanced">
+            <h4>Desafío 19: Reported Speech</h4>
+            <button class="open-challenge" data-challenge="19">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="advanced">
+            <h4>Desafío 20: Phrasal Verbs</h4>
+            <button class="open-challenge" data-challenge="20">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="advanced">
+            <h4>Desafío 21: Subjuntivo</h4>
+            <button class="open-challenge" data-challenge="21">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="advanced">
+            <h4>Desafío 22: Modales Perfectos</h4>
+            <button class="open-challenge" data-challenge="22">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="advanced">
+            <h4>Desafío 23: Inversión</h4>
+            <button class="open-challenge" data-challenge="23">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="advanced">
+            <h4>Desafío 24: Cleft Sentences</h4>
+            <button class="open-challenge" data-challenge="24">Comenzar Desafío</button>
+          </div>
+          <div class="challenge" data-difficulty="advanced">
+            <h4>Desafío 25: Expresiones Avanzadas</h4>
+            <button class="open-challenge" data-challenge="25">Comenzar Desafío</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Examples Section -->
+    <section id="examples-section">
+      <h2>Ejemplos</h2>
+      <p>Aquí encontrarás ejemplos de oraciones y vocabulario en inglés.</p>
+      <ul id="examples-list">
+        <!-- Examples will be dynamically populated here -->
+      </ul>
+      <div class="examples-buttons">
+        <button id="show-more-examples">Mostrar más ejemplos</button>
+        <button id="hide-examples">Ocultar ejemplos</button>
+      </div>
+    </section>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Study Materials Section -->
+  <section class="movie-section" id="study-materials">
+    <h2>Material de Estudio</h2>
+    <div class="study-materials">
+      <div class="material-category" id="dictionaries">
+        <h3>Diccionarios y Referencias</h3>
+        <div class="materials-grid">
+          <div class="material-card">
+            <div class="material-icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <h4>Diccionario Técnico Inglés-Español</h4>
+            <p>Diccionario completo con pronunciación y ejemplos</p>
+            <a href="pdf/7. DICCIONARIO TECNICO ingles - espanol.pdf" class="download-button">
+              <i class="fas fa-download"></i> Descargar PDF
+            </a>
+          </div>
+          <div class="material-card">
+            <div class="material-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h4>Gramática Básica de ESL
+              “Inglés como segundo idioma”</h4>
+            <p>Reglas gramaticales y ejercicios prácticos</p>
+            <a href="pdf/BasicESLGrammar.pdf" class="download-button">
+              <i class="fas fa-download"></i> Descargar PDF
+            </a>
+          </div>
+          <div class="material-card">
+            <div class="material-icon">
+              <i class="fas fa-language"></i>
+            </div>
+            <h4>Frases Comunes</h4>
+            <p>Las 157 Frases Más Usadas en el Inglés Hablado</p>
+            <a href="pdf/Table157PhrasesFreeDownloadnew.pdf" class="download-button">
+              <i class="fas fa-download"></i> Descargar PDF
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="material-category" id="vocabulary">
+        <h3>Vocabulario por Temas</h3>
+        <div class="materials-grid">
+          <div class="material-card">
+            <div class="material-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h4>Comida y Restaurantes</h4>
+            <p>Vocabulario esencial para ordenar comida</p>
+            <a href="pdf/127-auto-inglc3a9sc2ae-para-el-turismo.pdf" class="download-button">
+              <i class="fas fa-download"></i> Descargar PDF
+            </a>
+          </div>
+          <div class="material-card">
+            <div class="material-icon">
+              <i class="fas fa-plane"></i>
+            </div>
+            <h4>Viajes y Turismo</h4>
+            <p>Palabras clave para viajeros</p>
+            <a href="pdf/Ficha-de-vocabulario-para-viajar-en-ingles-.pdf" class="download-button">
+              <i class="fas fa-download"></i> Descargar PDF
+            </a>
+          </div>
+          <div class="material-card">
+            <div class="material-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h4>Negocios y Trabajo</h4>
+            <p>Vocabulario profesional y empresarial</p>
+            <a href="pdf/Vocabularios-de-negocios-450.pdf" class="download-button">
+              <i class="fas fa-download"></i> Descargar PDF
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="material-category" id="additional">
+        <h3>Recursos Adicionales</h3>
+        <div class="materials-grid">
+          <div class="material-card">
+            <div class="material-icon">
+              <i class="fas fa-headphones"></i>
+            </div>
+            <h4>Pronunciación</h4>
+            <p>Guía completa de fonética inglesa</p>
+            <a href="pdf/fonética inglesa_curso completo.pdf" class="download-button">
+              <i class="fas fa-download"></i> Descargar PDF
+            </a>
+          </div>
+          <div class="material-card">
+            <div class="material-icon">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h4>Conversación</h4>
+            <p>Diálogos y situaciones cotidianas</p>
+            <a href="pdf/guia-ING-I-U3.pdf" class="download-button">
+              <i class="fas fa-download"></i> Descargar PDF
+            </a>
+          </div>
+          <div class="material-card">
+            <div class="material-icon">
+              <i class="fas fa-pencil-alt"></i>
+            </div>
+            <h4>Ejercicios Prácticos</h4>
+            <p>Cuaderno de actividades y ejercicios</p>
+            <a href="pdf/Tiempos-verbales-en-ingles-Ejercicios.pdf" class="download-button">
+              <i class="fas fa-download"></i> Descargar PDF
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Simplified Footer -->
+  <footer>
+    <p class="copyright">&copy; 2025 Inglés Divertido - Todos los derechos reservados</p>
+    <p></p>
+    <p class="copyright">Santiago Fleitas</p>
+  </footer>
+
+  <!-- Modals for Challenges -->
+  <div id="challenge-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <div class="modal-header">
+        <h2 id="modal-title"></h2>
+      </div>
+      <div class="modal-body">
+        <p id="modal-description"></p>
+        <textarea id="user-answer" placeholder="Escribe tu respuesta aquí"></textarea>
+        <button id="submit-answer">Enviar Respuesta</button>
+        <p id="modal-result"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info Button -->
+  <button class="info-button" id="info-button">
+    <i class="fas fa-info"></i>
+  </button>
+
+  <!-- Info Modal -->
+  <div id="info-modal" class="info-modal">
+    <div class="info-modal-content">
+      <div class="info-modal-header">
+        <h2>Acerca de Inglés Divertido</h2>
+        <span class="info-close-button">&times;</span>
+      </div>
+      <div class="info-modal-body">
+        <p>¡Bienvenido a Inglés Divertido! Una plataforma interactiva diseñada para hacer el aprendizaje del inglés más divertido y efectivo.</p>
+
+        <h3>Características Principales</h3>
+        <ul>
+          <li><strong>Juego de Aprendizaje de Inglés:</strong> Practica la traducción de palabras del español al inglés con más de 50 palabras.</li>
+          <p></p>
+          <li><strong>Desafíos Interactivos:</strong> 25 desafíos divididos en tres niveles:
+            <p></p>
+            <ul>
+              <li>Principiante (8 desafíos)</li>
+              <li>Intermedio (8 desafíos)</li>
+              <li>Avanzado (9 desafíos)</li>
+            </ul>
+          </li>
+          <li><strong>Ejemplos Prácticos:</strong> Colección de frases comunes con sus traducciones.</li>
+          <p></p>
+          <li><strong>Material de Estudio:</strong> Recursos descargables organizados en:
+            <p></p>
+            <ul>
+              <li>Diccionarios y Referencias</li>
+              <li>Vocabulario por Temas</li>
+              <li>Recursos Adicionales</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3>¿Cómo Usar la Plataforma?</h3>
+        <p>1. Comienza con el Juego de Aprendizaje para familiarizarte con el vocabulario básico.</p>
+        <p>2. Avanza por los desafíos interactivos según tu nivel.</p>
+        <p>3. Utiliza la sección de ejemplos para ver el uso práctico del idioma.</p>
+        <p>4. Descarga el material de estudio para reforzar tu aprendizaje offline.</p>
+
+        <h3>Consejos para el Aprendizaje</h3>
+        <ul>
+          <li>Practica diariamente, aunque sea por períodos cortos.</li>
+          <li>No temas cometer errores, son parte del proceso de aprendizaje.</li>
+          <li>Utiliza los recursos descargables para estudiar sin conexión.</li>
+          <li>Revisa los ejemplos frecuentemente para mejorar tu comprensión.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

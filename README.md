@@ -1,6 +1,6 @@
 # 🌟 Inglés Divertido
 
-¡Bienvenido a **Inglés Divertido**! Una plataforma interactiva diseñada para hacer el aprendizaje del inglés más ameno y efectivo. 
+¡Bienvenido a **Inglés Divertido**! Una plataforma interactiva diseñada para hacer el aprendizaje del inglés más ameno y efectivo. Dicha plataforma es adaptada a celulares.
 
 ## 🌐 Características Principales
 
